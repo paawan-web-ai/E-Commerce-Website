@@ -1,0 +1,63 @@
+.hamburger {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media (max-width: 1389px) {
+  .nav-data {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background: #166534;
+    color: white;
+    padding: 20px;
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 13.9%;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 655px) {
+  .nav-icons,
+  p,
+  i {
+    font-size: 15px;
+  }
+  .navicon1,
+  .navicon2 {
+    display: none;
+  }
+  .nav-main h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 593px) {
+  .search,
+  .heart,
+  .cart,
+  .amount {
+    display: none;
+  }
+}
+
+@media (max-width: 719px) {
+  .nav-main {
+    width: 100%;
+    top: 70px;
+  }
+  .mobile-menu {
+    top: 150px;
+  }
+}

@@ -1,0 +1,18 @@
+@media (max-width: 719px) {
+  .free-ship-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .free-ship-line p {
+    font-size: 12px;
+  }
+  .freeship-icons p {
+    display: none;
+  }
+  .freeship-icons .newletter {
+    display: block;
+  }
+}
