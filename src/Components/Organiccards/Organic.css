@@ -48,4 +48,14 @@
     width: 100%;
     justify-self: stretch;
   }
+
+  .main-grid {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 2560px) {
+  .main-grid {
+    top: 80vh;
+  }
 }

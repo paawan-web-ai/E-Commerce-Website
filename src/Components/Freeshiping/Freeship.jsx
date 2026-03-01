@@ -2,8 +2,8 @@ import React from "react";
 import "./Freeship.css";
 const Freeship = () => {
   return (
-    <div className="bg-green-700 text-white text-xs flex justify-center">
-      <div className="free-ship-line flex justify-between w-[80%] py-2 h-20">
+    <div className="bg-green-700 text-white text-xs flex justify-center relative z-10">
+      <div className="free-ship-line flex justify-between w-[80%] py-2 h-20 ">
         <div>
           <p>FREE SHIPPING FOR ALL ORDERS OF $200</p>
         </div>

@@ -3,6 +3,7 @@ import Nav from "./Components/Nav/Nav";
 import Freeship from "./Components/Freeshiping/Freeship";
 import Homapage from "./Components/Homepage/Homapage";
 import Organic from "./Components/Organiccards/Organic";
+import Service from "./Components/Services30day/Service";
 const App = () => {
   return (
     <div>
@@ -10,6 +11,9 @@ const App = () => {
       <Nav />
       <Homapage />
       <Organic />
+      <div >
+        <Service />
+      </div>
     </div>
   );
 };
