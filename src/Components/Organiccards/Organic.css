@@ -1,0 +1,51 @@
+.white-line {
+  transform: translate(-50px, -350px);
+  background-color: rgba(255, 255, 255, 0.59);
+}
+
+.img-box:hover img {
+  scale: 1.1;
+  transition: all 0.4s ease;
+}
+
+.img-box:hover .white-line {
+  animation: slidLine 1.2s ease forwards;
+}
+
+@keyframes slidLine {
+  from {
+    transform: translate(-50px, -250px);
+  }
+  to {
+    transform: translate(-50px, 350px);
+  }
+}
+
+@media (max-width: 751px) {
+  .three-img {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .three-img .img-box:nth-child(3) {
+    grid-column: span 2; /* take full row */
+    justify-self: center; /* center horizontally */
+    width: 50%;
+  }
+
+  .two-img {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+}
+@media (max-width: 599px) {
+  .three-img {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .three-img .img-box:nth-child(3) {
+    grid-column: span 1;
+    width: 100%;
+    justify-self: stretch;
+  }
+}
