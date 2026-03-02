@@ -1,0 +1,34 @@
+.price-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden; /* hide visible scrollbar */
+}
+
+/* Hide scrollbar created by ScrollControls */
+.price-container canvas {
+  display: block;
+}
+
+/* Target drei scroll container */
+.price-container div {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+}
+
+.price-container div::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.price-wrapper {
+  height: 600px;
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  .price-wrapper {
+    display: none;
+  }
+}
