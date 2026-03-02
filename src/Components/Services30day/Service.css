@@ -8,17 +8,18 @@
     margin-top: 200%;
   }
 }
-@media (max-width: 2560px) {
-  .main-service {
-    margin-top: 20%;
-  }
-}
+
 @media (max-width: 768px) {
   .main-service {
     margin-top: 35%;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+  .main-service {
+    margin-top: 40%;
+  }
+}
+@media (max-width: 1023px) {
   .main-service {
     margin-top: 40%;
   }
@@ -28,10 +29,25 @@
     margin-top: 120%;
   }
 }
+@media (min-width: 1520px) {
+  .main-service {
+    margin-top: 20%;
+  }
+}
 
 @media (min-width: 1301px) {
   .main-service {
-    margin-top: 28%;
+    margin-top: 35%;
+  }
+}
+@media (min-width: 1575px) {
+  .main-service {
+    margin-top: 30%;
+  }
+}
+@media (min-width: 2490px) {
+  .main-service {
+    margin-top: 20%;
   }
 }
 
