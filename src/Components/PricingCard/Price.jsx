@@ -44,7 +44,7 @@ export default function FluidGlass({
   }, []);
 
   // ✅ Hide entire component on mobile and tablet
-  if (width < 1440) return null;
+  if (width < 1350) return null;
   return (
     <div className="price-container">
       <Canvas camera={{ position: [0, 0, 20], fov: 15 }} gl={{ alpha: true }}>
