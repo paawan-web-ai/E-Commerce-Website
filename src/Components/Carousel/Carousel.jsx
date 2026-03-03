@@ -21,7 +21,7 @@ export default function ImageCarousel() {
     };
 
     return (
-        <div className="flex items-center justify-center">
+        <div className="casousel-box flex items-center justify-center">
 
             {/* Main Image */}
             <div className="w-[500px] h-[400px] flex items-center justify-center">

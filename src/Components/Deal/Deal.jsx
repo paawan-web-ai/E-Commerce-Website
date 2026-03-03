@@ -2,10 +2,10 @@ import React from "react";
 import "./Deal.css";
 const Deal = () => {
   return (
-    <div className="deal-main w-[28rem] bg-white shadow-lg rounded-xl overflow-hidden space-y-5 h-[30rem]">
+    <div className=" w-[28rem] bg-white shadow-lg rounded-xl overflow-hidden space-y-5 h-[30rem]">
 
       {/* Header */}
-      <div className="bg-green-600 text-white text-2xl font-semibold flex justify-center items-center h-20">
+      <div className="bg-green-700 text-white text-2xl font-semibold flex justify-center items-center h-20">
         Deal Of The Week
       </div>
 

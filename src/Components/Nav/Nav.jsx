@@ -35,7 +35,7 @@ const Nav = () => {
             <p>Login</p>
           </div>
           <div className="search hover:text-green-500 transition-all duration-300 ease-in-out">
-            <i class="ri-search-line text-2xl"></i>
+            <i className="ri-search-line text-2xl"></i>
           </div>
           <div className="heart relative hover:text-green-500 transition-all duration-300 ease-in-out">
             <i class="ri-heart-line text-2xl"></i>
