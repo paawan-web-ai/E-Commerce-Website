@@ -2,36 +2,57 @@ import React from "react";
 import "./Deal.css";
 const Deal = () => {
   return (
-    <div>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
-      officiis non similique autem dignissimos, accusamus maiores, reiciendis
-      magnam dolores impedit vero unde eveniet pariatur saepe itaque quos
-      eligendi quae doloremque?Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit. Numquam consectetur ratione labore ex nemo blanditiis
-      voluptate consequatur, nam dicta! Nemo veniam dolore voluptate minima illo
-      debitis exercitationem, in commodi quidem recusandae quae et delectus
-      consequatur nesciunt quas esse laudantium ipsam dicta earum voluptates,
-      animi consectetur a sit. Ab similique tempore nisi, aperiam perferendis
-      cupiditate magni provident minima esse aspernatur, ad inventore placeat.
-      Praesentium aperiam laudantium nam illum. Voluptatibus fugiat eaque atque
-      eos odio debitis rem doloribus maiores excepturi reiciendis tempore
-      perferendis esse asperiores, hic blanditiis qui quo facere quisquam soluta
-      nulla obcaecati? Enim sequi esse quaerat facilis suscipit tenetur fuga
-      molestias accusamus nemo temporibus, tempore quos corporis recusandae illo
-      quis consectetur eum expedita, eligendi, possimus voluptas veniam aut
-      error! Aliquid repellat iure quis aliquam impedit nihil sed. Illo
-      veritatis recusandae iusto quia neque possimus minima quisquam, eum libero
-      consequatur adipisci cumque obcaecati? Quos inventore iste iure in odio
-      voluptatum nemo sed laboriosam? Molestiae eius eum fugiat! Eos magni sed
-      minus fugiat aperiam, odio id laudantium consequatur? Libero labore,
-      nostrum quibusdam eum quod quae autem molestiae unde ducimus aliquam,
-      suscipit fugit nisi, ad inventore quia perferendis laudantium! Ullam, ad
-      natus quaerat unde incidunt magnam? Esse nam deleniti consequatur! Tempora
-      sequi animi, repellendus perspiciatis molestiae voluptates commodi
-      provident hic aliquid architecto, minima perferendis omnis praesentium
-      maxime quasi? Ratione adipisci perspiciatis pariatur blanditiis, inventore
-      itaque?
+    <div className="deal-main w-[28rem] bg-white shadow-lg rounded-xl overflow-hidden space-y-5 h-[30rem]">
+
+      {/* Header */}
+      <div className="bg-green-600 text-white text-2xl font-semibold flex justify-center items-center h-20">
+        Deal Of The Week
+      </div>
+
+      {/* Content */}
+      <div className="bg-gray-50 p-6">
+
+        {/* Price Section */}
+        <div className="text-center">
+          <p className="text-3xl font-bold text-gray-900">
+            <span className="text-base line-through text-gray-400 font-normal mr-2">
+              $65.30
+            </span>
+            $59.42
+            <span className="text-xs font-bold bg-red-600 text-white px-2 py-1 rounded ml-2">
+              -9%
+            </span>
+          </p>
+        </div>
+
+        {/* Product Info */}
+        <div className="mt-6 text-center">
+          <p className="font-semibold text-lg">
+            Sante Granola With Chocolate
+          </p>
+
+          <div className="flex justify-center mt-4 text-amber-400 text-xl">
+            <i className="ri-star-line"></i>
+            <i className="ri-star-line"></i>
+            <i className="ri-star-line"></i>
+            <i className="ri-star-line"></i>
+            <i className="ri-star-line"></i>
+          </div>
+        </div>
+
+        {/* Description */}
+        <p className="mt-6 text-sm text-gray-600 leading-relaxed text-center">
+          The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention to a range fashion
+        </p>
+
+        {/* Stock */}
+        <p className="mt-4 text-center text-sm font-medium text-green-700">
+          Availability: 300 In Stock
+        </p>
+
+      </div>
     </div>
+
   );
 };
 

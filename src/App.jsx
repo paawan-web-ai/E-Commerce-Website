@@ -6,6 +6,7 @@ import Organic from "./Components/Organiccards/Organic";
 import Service from "./Components/Services30day/Service";
 import Price from "./Components/PricingCard/Price";
 import Deal from "./Components/Deal/Deal";
+import Carousel from "./Components/Carousel/Carousel";
 
 const App = () => {
   return (
@@ -30,8 +31,15 @@ const App = () => {
           anisotropy={0.01}
         />
       </div>
-      <Deal />
-    </div>
+      <div className=" carsousel-main flex justify-center gap-5 py-10">
+
+        <Deal />
+
+        <div className="carsousel-child2">
+          <Carousel />
+        </div>
+      </div>
+    </div >
   );
 };
 
