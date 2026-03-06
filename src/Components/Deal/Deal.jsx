@@ -2,7 +2,7 @@ import React from "react";
 import "./Deal.css";
 const Deal = () => {
   return (
-    <div className=" w-[28rem] bg-white shadow-lg rounded-xl overflow-hidden space-y-5 h-[30rem]">
+    <div className="deal-main w-[28rem] bg-white shadow-lg rounded-xl overflow-hidden space-y-5 h-[30rem]">
 
       {/* Header */}
       <div className="bg-green-700 text-white text-2xl font-semibold flex justify-center items-center h-20">

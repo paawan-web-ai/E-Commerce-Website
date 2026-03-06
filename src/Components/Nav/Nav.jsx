@@ -5,23 +5,85 @@ const Nav = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className="flex justify-center pt-5 items-center ">
-      <div className="nav-main absolute z-10 top-10 flex justify-between items-center h-20 px-10 py-4 w-[80%] bg-green-800 text-white">
+      <div className="nav-main absolute z-10 top-10 flex justify-between items-center h-20 px-10 py-4 w-[85%] bg-green-800 text-white">
         <div className="text-5xl font-bold">
           <h1>Fulo</h1>
         </div>
-        <div className="nav-data flex gap-13 text-lg items-center ">
+        <div className="nav-data flex gap-10 text-lg items-center ">
           <p className="hover:text-green-500 transition-all duration-300 ease-in-out">
             <a href="#">HOME</a>
           </p>
-          <p className="hover:text-green-500 transition-all duration-300 ease-in-out">
-            <a href="#">SHOP</a>
-          </p>
-          <p className="hover:text-green-500 transition-all duration-300 ease-in-out">
-            <a href="#">PAGES</a>
-          </p>
-          <p className="hover:text-green-500 transition-all duration-300 ease-in-out">
-            <a href="#">BLOG</a>
-          </p>
+
+
+          <div className="relative group hover:text-green-500 transition-all duration-300 ease-in-out">
+
+            <div className="flex items-center cursor-pointer">
+              <a href="#">SHOP</a>
+              <i className="text-2xl ri-arrow-drop-down-line"></i>
+            </div>
+            <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-fit rounded p-5 ">
+              <div className="flex gap-10">
+                <div>
+                  <div className="mb-5">
+                    <h1>Shop Layouts</h1>
+                  </div>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+                </div>
+                <div>
+                  <div className="mb-5">
+                    <h1>Shop Layouts</h1>
+                  </div>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+                </div>
+                <div>
+                  <div className="mb-5">
+                    <h1>Shop Layouts</h1>
+                  </div>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
+                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div className="relative group hover:text-green-500 transition-all duration-300 ease-in-out">
+
+            <div className="flex items-center cursor-pointer">
+              <a href="#">PAGES</a>
+              <i className="text-2xl ri-arrow-drop-down-line"></i>
+            </div>
+            <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-40 rounded">
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+            </div>
+
+          </div>
+          <div className="relative group hover:text-green-500 transition-all duration-300 ease-in-out">
+
+            <div className="flex items-center cursor-pointer">
+              <a href="#">BLOG</a>
+              <i className="text-2xl ri-arrow-drop-down-line"></i>
+            </div>
+            <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-40 rounded">
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+            </div>
+
+          </div>
           <p className="hover:text-green-500 transition-all duration-300 ease-in-out">
             <a href="#">ABOUT US</a>
           </p>
