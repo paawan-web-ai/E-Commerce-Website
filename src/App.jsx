@@ -7,6 +7,7 @@ import Service from "./Components/Services30day/Service";
 import Deal from "./Components/Deal/Deal";
 import Carousel from "./Components/Carousel/Carousel";
 import ImageGridScrollUp from "./Components/ImageGridScrollUp/ImageGridScrollUp";
+import Cardstitle from "./Components/Cardstitle/Cardstitle";
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           <Carousel />
         </div>
       </div>
+      <Cardstitle />
     </div >
   );
 };
