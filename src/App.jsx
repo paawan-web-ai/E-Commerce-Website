@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Components/Nav/Nav";
 import Freeship from "./Components/Freeshiping/Freeship";
 import Homapage from "./Components/Homepage/Homapage";
@@ -11,10 +11,15 @@ import Cardstitle from "./Components/Cardstitle/Cardstitle";
 
 
 const App = () => {
+  const [cart, setcart] = useState([]);
+
+  const addToCart = (product) => {
+    setcart([...cart, product])
+  }
   return (
     <div>
       <Freeship />
-      <Nav />
+      <Nav cart={cart} />
       <Homapage />
       <Organic />
       <div>
@@ -32,7 +37,7 @@ const App = () => {
           <Carousel />
         </div>
       </div>
-      <Cardstitle />
+      <Cardstitle addToCart={addToCart} />
     </div >
   );
 };

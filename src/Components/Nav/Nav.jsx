@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./Nav.css";
 import { Sling as Hamburger } from "hamburger-react";
-const Nav = () => {
+const Nav = ({ cart }) => {
   const [isOpen, setOpen] = useState(false);
+  const [showCart, setShowCart] = useState(false);
   return (
     <div className="flex justify-center pt-5 items-center ">
       <div className="nav-main absolute z-10 top-10 flex justify-between items-center h-20 px-10 py-4 w-[85%] bg-green-800 text-white">
@@ -101,14 +102,16 @@ const Nav = () => {
           </div>
           <div className="heart relative hover:text-green-500 transition-all duration-300 ease-in-out">
             <i class="ri-heart-line text-2xl"></i>
-            <div className="navicon1 h-5 w-5 rounded-[50%] bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
+            <div className="navicon2 h-5 w-5 rounded-full bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
               1
             </div>
           </div>
-          <div className="cart relative hover:text-green-500 transition-all duration-300 ease-in-out">
+          <div
+            onClick={() => setShowCart(!showCart)}
+            className="cart relative hover:text-green-500 transition-all duration-300 ease-in-out">
             <i class=" ri-shopping-bag-line text-2xl"></i>
-            <div className="navicon2 h-5 w-5 rounded-[50%] bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
-              1
+            <div className="navicon2 h-5 w-5 rounded-full bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
+              {cart.length}
             </div>
           </div>
           <p className="amount">$91.10</p>
@@ -131,6 +134,24 @@ const Nav = () => {
           <a>BLOG</a>
           <a>ABOUT US</a>
           <a>CONTACT US</a>
+        </div>
+      )}
+      {showCart && (
+        <div className="absolute right-20 top-30 w-80 bg-white text-black shadow-lg rounded-lg p-4 z-50">
+
+          <h2 className="font-bold text-lg mb-3">Cart Items</h2>
+
+          {cart.length === 0 ? (
+            <p>Your cart is empty</p>
+          ) : (
+            cart.map((item) => (
+              <div key={item.id} className="flex justify-between border-b py-2">
+                <span>{item.name}</span>
+                <span>₹{item.price}</span>
+              </div>
+            ))
+          )}
+
         </div>
       )}
     </div>
