@@ -8,14 +8,14 @@ import Deal from "./Components/Deal/Deal";
 import Carousel from "./Components/Carousel/Carousel";
 import ImageGridScrollUp from "./Components/ImageGridScrollUp/ImageGridScrollUp";
 import Cardstitle from "./Components/Cardstitle/Cardstitle";
-
+import SalesBoxes from "./Components/Salesboxes/SalesBoxes";
 
 const App = () => {
   const [cart, setcart] = useState([]);
 
   const addToCart = (product) => {
-    setcart([...cart, product])
-  }
+    setcart([...cart, product]);
+  };
   return (
     <div>
       <Freeship />
@@ -30,7 +30,6 @@ const App = () => {
       </div>
 
       <div className=" carsousel-main flex justify-center gap-5 py-10">
-
         <Deal />
 
         <div className="carsousel-child2">
@@ -38,7 +37,8 @@ const App = () => {
         </div>
       </div>
       <Cardstitle addToCart={addToCart} />
-    </div >
+      <SalesBoxes />
+    </div>
   );
 };
 
