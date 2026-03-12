@@ -94,14 +94,14 @@ const Nav = ({ cart }) => {
         </div>
         <div className="nav-icons flex gap-4 text-lg items-center">
           <div className="login flex items-center gap-2 hover:text-green-500 transition-all duration-300 ease-in-out">
-            <i class="ri-user-3-line text-2xl"></i>
+            <i className="ri-user-3-line text-2xl"></i>
             <p>Login</p>
           </div>
           <div className="search hover:text-green-500 transition-all duration-300 ease-in-out">
             <i className="ri-search-line text-2xl"></i>
           </div>
           <div className="heart relative hover:text-green-500 transition-all duration-300 ease-in-out">
-            <i class="ri-heart-line text-2xl"></i>
+            <i className="ri-heart-line text-2xl"></i>
             <div className="navicon2 h-5 w-5 rounded-full bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
               1
             </div>
@@ -109,7 +109,7 @@ const Nav = ({ cart }) => {
           <div
             onClick={() => setShowCart(!showCart)}
             className="cart relative hover:text-green-500 transition-all duration-300 ease-in-out">
-            <i class=" ri-shopping-bag-line text-2xl"></i>
+            <i className=" ri-shopping-bag-line text-2xl"></i>
             <div className="navicon2 h-5 w-5 rounded-full bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
               {cart.length}
             </div>
