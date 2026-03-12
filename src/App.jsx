@@ -9,6 +9,8 @@ import Carousel from "./Components/Carousel/Carousel";
 import ImageGridScrollUp from "./Components/ImageGridScrollUp/ImageGridScrollUp";
 import Cardstitle from "./Components/Cardstitle/Cardstitle";
 import SalesBoxes from "./Components/Salesboxes/SalesBoxes";
+import Latest from "./Components/LatestBlogs/Latest";
+import BrandSlider from "./Components/BrandSlider/BrandSlider";
 
 const App = () => {
   const [cart, setcart] = useState([]);
@@ -38,6 +40,10 @@ const App = () => {
       </div>
       <Cardstitle addToCart={addToCart} />
       <SalesBoxes />
+      <Latest />
+      <div>
+        <BrandSlider />
+      </div>
     </div>
   );
 };
