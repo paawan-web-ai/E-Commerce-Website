@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Nav from "./Components/Nav/Nav";
+import AppRoutes from "./routes/AppRoutes";
 import Freeship from "./Components/Freeshiping/Freeship";
 import Homapage from "./Components/Homepage/Homapage";
 import Organic from "./Components/Organiccards/Organic";
@@ -52,6 +53,10 @@ const App = () => {
               </>
             }
           />
+
+          {/* Shop Routes */}
+          <Route path="/*" element={<AppRoutes />} />
+
 
           {/* Create Product Page */}
           <Route path="/createaddtocart" element={<CreateAddToCart />} />

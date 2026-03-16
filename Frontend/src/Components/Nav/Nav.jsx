@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Nav.css";
 import { Sling as Hamburger } from "hamburger-react";
+import { Link } from "react-router-dom";
 const Nav = ({ cart }) => {
   const [isOpen, setOpen] = useState(false);
   const [showCart, setShowCart] = useState(false);
@@ -23,33 +24,63 @@ const Nav = ({ cart }) => {
               <i className="text-2xl ri-arrow-drop-down-line"></i>
             </div>
             <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-fit rounded p-5 ">
-              <div className="flex gap-10">
+              <div className="flex gap-8">
                 <div>
-                  <div className="mb-5">
+                  <div className="mb-3 text-md">
                     <h1>Shop Layouts</h1>
                   </div>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+
+                  <Link to="/shop/3-column" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Shop 3 Column
+                  </Link>
+
+                  <Link to="/shop/4-column" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Shop 4 Column
+                  </Link>
+
+                  <Link to="/shop/left-sidebar" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Shop Left Sidebar
+                  </Link>
+
+                  <Link to="/shop/right-sidebar" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Shop Right Sidebar
+                  </Link>
+
+                  <Link to="/shop/no-sidebar" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Shop No Sidebar
+                  </Link>
                 </div>
                 <div>
-                  <div className="mb-5">
-                    <h1>Shop Layouts</h1>
+                  <div className="mb-3 text-md">
+                    <h1>Shop Pages</h1>
                   </div>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+                  <Link to="/cart" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Cart Page
+                  </Link>
+
+                  <Link to="/checkout" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Checkout
+                  </Link>
+
+                  <Link to="/account" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    My Account
+                  </Link>
+
+                  <Link to="/wishlist" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Wishlist
+                  </Link>
+
+                  <Link to="/compare" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                    Compare
+                  </Link>
                 </div>
                 <div>
-                  <div className="mb-5">
-                    <h1>Shop Layouts</h1>
+                  <div className="mb-3 text-md">
+                    <h1>Product Types</h1>
                   </div>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
-                  <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+                  <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Details</a>
+                  <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Variable</a>
+                  <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Grouped</a>
                 </div>
               </div>
             </div>
