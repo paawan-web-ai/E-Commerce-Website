@@ -20,6 +20,10 @@ import Wishlist from "../pages/order/Wishlist";
 // import ProductVariable from "../pages/product/ProductVariable";
 // import ProductGrouped from "../pages/product/ProductGrouped";
 
+/*LOGIN PAGE & REGISTER PAGE*/
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
+
 const AppRoutes = () => {
     return (
         <Routes>
@@ -41,6 +45,9 @@ const AppRoutes = () => {
             {/* <Route path="/product/:id" element={<ProductDetails />} />
             <Route path="/product/variable/:id" element={<ProductVariable />} />
             <Route path="/product/grouped/:id" element={<ProductGrouped />} /> */}
+
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
         </Routes>
     );
 };

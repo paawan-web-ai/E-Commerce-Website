@@ -124,10 +124,13 @@ const Nav = ({ cart }) => {
           </p>
         </div>
         <div className="nav-icons flex gap-4 text-lg items-center">
-          <div className="login flex items-center gap-2 hover:text-green-500 transition-all duration-300 ease-in-out">
+          <Link
+            to="/login"
+            className="login flex items-center gap-2 hover:text-green-500 transition-all duration-300 ease-in-out"
+          >
             <i className="ri-user-3-line text-2xl"></i>
             <p>Login</p>
-          </div>
+          </Link>
           <div className="search hover:text-green-500 transition-all duration-300 ease-in-out">
             <i className="ri-search-line text-2xl"></i>
           </div>
