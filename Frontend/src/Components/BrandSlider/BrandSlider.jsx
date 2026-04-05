@@ -30,7 +30,7 @@ const BrandSlider = () => {
 
   return (
     <div className="flex justify-center w-full mt-15 overflow-hidden">
-      <div ref={sliderRef} className="flex gap-10 w-[900px] overflow-hidden">
+      <div ref={sliderRef} className="flex gap-10 w-[960px] overflow-hidden">
         {/* FIRST SET */}
         <img src={img1} className="h-16 flex-shrink-0" />
         <img src={img2} className="h-16 flex-shrink-0" />

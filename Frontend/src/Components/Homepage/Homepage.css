@@ -6,13 +6,15 @@
   background-repeat: no-repeat;
 }
 
+.bg-image h1 {
+  font-size: clamp(50px, 3vw, 150px);
+}
+
 @media (max-width: 911px) {
   .bg-image {
     gap: 20px;
   }
-  .bg-image h1 {
-    font-size: 45px;
-  }
+
   .bg-image p {
     font-size: 20px;
   }

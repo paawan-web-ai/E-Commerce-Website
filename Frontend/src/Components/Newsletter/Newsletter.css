@@ -1,0 +1,31 @@
+.new-main {
+  background-color: rgb(120, 189, 23);
+}
+
+.new-top {
+  font-size: clamp(15px, 2vw, 26px);
+}
+
+@media (max-width: 821px) {
+  .new-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+@media (max-width: 639px) {
+  .new-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+  }
+}
+@media (max-width: 349px) {
+  .new-top {
+    font-size: 12px;
+  }
+  .new-bottom {
+    font-size: 12px;
+  }
+}

@@ -13,6 +13,7 @@ import Latest from "./Components/LatestBlogs/Latest";
 import BrandSlider from "./Components/BrandSlider/BrandSlider";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import CreateAddToCart from "./pages/CreateAddToCart"
+import Newsletter from "./Components/Newsletter/Newsletter";
 const App = () => {
   const [cart, setcart] = useState([]);
 
@@ -50,6 +51,7 @@ const App = () => {
                 <SalesBoxes />
                 <Latest />
                 <BrandSlider />
+                <Newsletter />
               </>
             }
           />
