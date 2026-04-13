@@ -1,0 +1,18 @@
+@media (max-width: 1332px) {
+  .shop3-call {
+    display: none;
+  }
+  .shop3-search {
+    display: block-inline;
+  }
+}
+@media (max-width: 900px) {
+  .shop3-heading {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 0;
+    order: unset; /* Override the flex order for absolute positioning */
+  }
+}
