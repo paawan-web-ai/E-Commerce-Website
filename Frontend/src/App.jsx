@@ -14,6 +14,7 @@ import BrandSlider from "./Components/BrandSlider/BrandSlider";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import CreateAddToCart from "./pages/CreateAddToCart"
 import Newsletter from "./Components/Newsletter/Newsletter";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   const [cart, setcart] = useState([]);
 
@@ -52,6 +53,7 @@ const App = () => {
                 <Latest />
                 <BrandSlider />
                 <Newsletter />
+                <Footer />
               </>
             }
           />
