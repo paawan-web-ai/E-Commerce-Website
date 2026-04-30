@@ -2,6 +2,7 @@ import React from 'react'
 import "./Shop3FreeShip.css"
 const Shop3FreeShip = () => {
     return (
+
         <div className='freeship-main flex justify-between px-5 md:px-50 py-3 border-b border-gray-400'>
             <div>
                 <p>Free Shipping for all orders of <span className='font-bold'>$200</span></p>
@@ -13,6 +14,8 @@ const Shop3FreeShip = () => {
                 <p><i class="ri-mail-line"></i>NEWSLETTER</p>
             </div>
         </div>
+
+
     )
 }
 

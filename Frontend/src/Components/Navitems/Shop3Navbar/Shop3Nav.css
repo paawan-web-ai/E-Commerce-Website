@@ -16,3 +16,14 @@
     order: unset; /* Override the flex order for absolute positioning */
   }
 }
+
+@media (max-width: 1427px) {
+  .second-nav {
+    display: none;
+  }
+}
+
+.main-navbar {
+  max-width: 2000px;
+  margin: 0 auto;
+}
