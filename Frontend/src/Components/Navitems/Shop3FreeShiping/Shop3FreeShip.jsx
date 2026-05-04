@@ -3,7 +3,7 @@ import "./Shop3FreeShip.css"
 const Shop3FreeShip = () => {
     return (
 
-        <div className='freeship-main flex justify-between px-5 md:px-50 py-3 border-b border-gray-400'>
+        <div className='freeship-main flex justify-between px-5 md:px-50 py-3 border-b border-gray-400 mb-5'>
             <div>
                 <p>Free Shipping for all orders of <span className='font-bold'>$200</span></p>
             </div>
