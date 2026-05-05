@@ -56,7 +56,7 @@ const Shop3Nav = () => {
                         onClick={() => setShowDropdown(prev => !prev)}
                         className=' flex gap-2 text-2xl font-bold bg-green-500 text-white py-4 px-6 rounded-t-3xl cursor-pointer'>All Department <p><i
                             class="ri-arrow-down-s-line"></i></p></h3>
-                    <div className={`absolute  top-59 w-63.5 border-2 border-green-500 rounded-b-2xl overflow-hidden bg-white z-50 transition-all duration-500 ease-in-out ${showdropdown ? "max-h-96 opacity-100 " : "max-h-0 opacity-100 "}`}
+                    <div className={`absolute  top-58 w-63.5 border-2 border-green-500 rounded-b-2xl overflow-hidden bg-white z-50 transition-all duration-500 ease-in-out ${showdropdown ? "max-h-96 opacity-100 " : "max-h-0 opacity-100 "}`}
                     >
                         <div className="p-3 flex flex-col gap-5">
                             <h1 className="border-b p-2 text-xl">hello</h1>
