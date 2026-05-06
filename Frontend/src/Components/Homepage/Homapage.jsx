@@ -8,7 +8,7 @@ const Homapage = () => {
         <p className="text-3xl opacity-80 font-semibold">
           get fresh foods from our farm to your table
         </p>
-        <button className="bg-green-700 py-3 px-5 rounded-3xl font-semibold text-white cursor-pointer">
+        <button className="bg-green-700 py-2 px-5 rounded-3xl font-semibold text-white cursor-pointer">
           SHOP NOW
         </button>
       </div>

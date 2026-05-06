@@ -27,7 +27,7 @@ const Cardstitle = ({ addToCart }) => {
     (item) => item.category === activetab
   );
   return (
-    <div className="mt-10">
+    <div className="mt-20">
       <div className="tabs cursor-pointer flex flex-wrap justify-center gap-4 sm:gap-10 md:gap-20 mb-5 text-xl ">
         <h2
           onClick={() => {
@@ -51,12 +51,122 @@ const Cardstitle = ({ addToCart }) => {
           Best Sellers
         </h2>
       </div>
-      <hr className="w-[60%] mx-auto" />
-      <div className="flex flex-wrap mt-10 justify-center gap-5 max-w-5xl px-4 mx-auto">
+      <hr className=" mx-auto border-bottom" />
+      <div className="flex  flex-wrap mt-10 justify-center gap-5 max-w-5xl px-4 mx-auto">
+        <div className="flex gap-5  card-main">
+          <div className="cards w-64 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-95 space-y-1 overflow-hidden relative group cursor-pointer ">
+            <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
+              <img
+                className="w-50 h-50 object-cover"
+                src="src\assets\img\c2.webp"
+                alt=""
+              />
+            </div>
+
+            <div className=" flex gap-2 text-3xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 cursor-pointer transition duration-700">
+              <div
+                className="bg-green-600 hover:bg-green-800 p-2 border rounded-full w-14 flex items-center justify-center"
+              >
+                <i className="ri-shopping-bag-4-line"></i>
+              </div>
+              <div className="bg-green-600 hover:bg-green-800 p-2 border rounded-[50%] w-14">
+                <i className="ri-heart-line"></i>
+              </div>
+            </div>
+
+            <h3 className="text-lg font-semibold">title</h3>
+
+            <p className="text-green-600 font-bold text-xl">
+              ₹255
+            </p>
+
+            <p className="text-lg text-wrap w-50 mx-auto">Sante Granola with chocolate</p>
+
+            <div className="text-yellow-400">
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+            </div>
+          </div>
+          <div className="cards w-64 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-95 space-y-1 overflow-hidden relative group cursor-pointer ">
+            <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
+              <img
+                className="w-50 h-50 object-cover"
+                src="src\assets\img\c4.webp"
+                alt=""
+              />
+            </div>
+
+            <div className=" flex gap-2 text-3xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 cursor-pointer transition duration-700">
+              <div
+                className="bg-green-600 hover:bg-green-800 p-2 border rounded-full w-14 flex items-center justify-center"
+              >
+                <i className="ri-shopping-bag-4-line"></i>
+              </div>
+              <div className="bg-green-600 hover:bg-green-800 p-2 border rounded-[50%] w-14">
+                <i className="ri-heart-line"></i>
+              </div>
+            </div>
+
+            <h3 className="text-lg font-semibold">title</h3>
+
+            <p className="text-green-600 font-bold text-xl">
+              ₹255
+            </p>
+
+            <p className="text-lg text-wrap w-50 mx-auto">Sante Granola with chocolate</p>
+
+            <div className="text-yellow-400">
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+            </div>
+          </div>
+          <div className="cards w-64 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-95 space-y-1 overflow-hidden relative group cursor-pointer ">
+            <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
+              <img
+                className="w-50 h-50 object-cover"
+                src="src\assets\img\c3.webp"
+                alt=""
+              />
+            </div>
+
+            <div className=" flex gap-2 text-3xl text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 cursor-pointer transition duration-700">
+              <div
+                className="bg-green-600 hover:bg-green-800 p-2 border rounded-full w-14 flex items-center justify-center"
+              >
+                <i className="ri-shopping-bag-4-line"></i>
+              </div>
+              <div className="bg-green-600 hover:bg-green-800 p-2 border rounded-[50%] w-14">
+                <i className="ri-heart-line"></i>
+              </div>
+            </div>
+
+            <h3 className="text-lg font-semibold">title</h3>
+
+            <p className="text-green-600 font-bold text-xl">
+              ₹255
+            </p>
+
+            <p className="text-lg text-wrap w-50 mx-auto">Sante Granola with chocolate</p>
+
+            <div className="text-yellow-400">
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+              <i className="ri-star-line"></i>
+            </div>
+          </div>
+        </div>
         {filterProducts.map((item) => {
           return (
             <div className="card  " key={item._id || item.id}>
-              <div className=" w-64 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-85 space-y-1 overflow-hidden relative group cursor-pointer ">
+              <div className=" w-64 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-95 space-y-1 overflow-hidden relative group cursor-pointer transition duration-700 ">
                 <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                   <img
                     className="w-50 h-50 object-cover"
@@ -83,7 +193,7 @@ const Cardstitle = ({ addToCart }) => {
                   ₹{item.price}
                 </p>
 
-                <p>{item.description}</p>
+                <p className="text-lg text-wrap w-50 mx-auto">{item.description}</p>
 
                 <div className="text-yellow-400">
                   <i className="ri-star-line"></i>

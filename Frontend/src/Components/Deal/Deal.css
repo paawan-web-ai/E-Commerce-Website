@@ -4,3 +4,10 @@
     height: 450px;
   }
 }
+@media (max-width: 797px) {
+  .deal-main {
+    div p {
+      font-size: clamp(15px, 1vw, 40px);
+    }
+  }
+}

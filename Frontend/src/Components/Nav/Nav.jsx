@@ -23,7 +23,7 @@ const Nav = ({ cart }) => {
               <a href="#">SHOP</a>
               <i className="text-2xl ri-arrow-drop-down-line"></i>
             </div>
-            <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-fit rounded p-5 ">
+            <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-[35rem] rounded p-8 text-black space-y-8 ">
               <div className="flex gap-8">
                 <div>
                   <div className="mb-3 text-md">
@@ -83,6 +83,9 @@ const Nav = ({ cart }) => {
                   <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Grouped</a>
                 </div>
               </div>
+              <div className="w-full h-50">
+                <img className="w-full h-full object-cover object-center" src="src\assets\img\vegetables.jpg" alt="" />
+              </div>
             </div>
 
           </div>
@@ -129,7 +132,7 @@ const Nav = ({ cart }) => {
             className="login flex items-center gap-2 hover:text-green-500 transition-all duration-300 ease-in-out"
           >
             <i className="ri-user-3-line text-2xl"></i>
-            <p>Login</p>
+            <p className="Login ">Login</p>
           </Link>
           <div className="search hover:text-green-500 transition-all duration-300 ease-in-out">
             <i className="ri-search-line text-2xl"></i>

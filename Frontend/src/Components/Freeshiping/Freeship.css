@@ -16,3 +16,14 @@
     display: block;
   }
 }
+
+.free-ship-line p {
+  font-size: clamp(10px, 5vw, 12px);
+}
+
+.compare i {
+  font-size: 14px;
+}
+.newletter i {
+  font-size: 14px;
+}

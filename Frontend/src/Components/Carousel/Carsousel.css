@@ -20,3 +20,12 @@
     height: 400px;
   }
 }
+
+@media (max-width: 459px) {
+  .boxes {
+    div {
+      width: 90px;
+      height: 80px;
+    }
+  }
+}
