@@ -1,4 +1,4 @@
-@media (max-width: 719px) {
+@media (max-width: 945px) {
   .free-ship-line {
     display: flex;
     flex-direction: column;
@@ -6,14 +6,19 @@
     justify-content: center;
     gap: 10px;
   }
+
   .free-ship-line p {
     font-size: 12px;
   }
-  .freeship-icons p {
+
+  .currency-item,
+  .language-item,
+  .compare-item {
     display: none;
   }
-  .freeship-icons .newletter {
-    display: block;
+
+  .newsletter {
+    display: flex;
   }
 }
 
@@ -24,6 +29,7 @@
 .compare i {
   font-size: 14px;
 }
-.newletter i {
+
+.newsletter i {
   font-size: 14px;
 }
