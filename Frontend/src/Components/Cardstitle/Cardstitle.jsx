@@ -52,7 +52,10 @@ const Cardstitle = ({ addToCart }) => {
         </h2>
       </div>
       <hr className=" mx-auto border-bottom" />
+
+
       <div className="flex  flex-wrap mt-10 justify-center gap-5 max-w-5xl px-4 mx-auto">
+
         <div className="flex gap-5  card-main">
           <div className="cards w-64 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-95 space-y-1 overflow-hidden relative group cursor-pointer ">
             <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
