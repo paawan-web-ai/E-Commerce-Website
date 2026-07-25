@@ -9,6 +9,6 @@
   padding: 8rem;
 }
 
-p {
-  font-size: clamp(5px, 2vw, 16px);
+.home-page-paragraph {
+  font-size: clamp(12px, 2vw, 22px);
 }

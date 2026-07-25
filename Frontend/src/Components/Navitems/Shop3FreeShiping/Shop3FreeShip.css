@@ -9,3 +9,12 @@
     display: none;
   }
 }
+.freeship-main {
+  p {
+    font-size: clamp(12px, 2vw, 20px);
+
+    i {
+      font-size: clamp(12px, 2vw, 20px);
+    }
+  }
+}

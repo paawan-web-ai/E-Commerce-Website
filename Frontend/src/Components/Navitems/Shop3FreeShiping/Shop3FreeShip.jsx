@@ -11,7 +11,7 @@ const Shop3FreeShip = () => {
                 <p className='hide-on-mobile'>USD $</p>
                 <p className='hide-on-mobile'>ENGLISH</p>
                 <p className='hide-on-mobile'><i class="ri-stack-line"></i> MY COMPARE</p>
-                <p><i class="ri-mail-line"></i>NEWSLETTER</p>
+                <p><i class="ri-mail-line "></i>NEWSLETTER</p>
             </div>
         </div>
 

@@ -2,13 +2,13 @@ import React from 'react'
 import './Shop3Cards.css'
 const Shop3Cards = () => {
     return (
-        <div className='flex  w-full justify-center '>
+        <div className='flex w-full justify-center flex-col items-center gap-15'>
 
             {/* cardss */}
 
             <div className="flex gap-5 w-[90%] card-main">
 
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
@@ -44,7 +44,7 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
@@ -80,7 +80,7 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
@@ -116,7 +116,7 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
@@ -152,11 +152,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -188,11 +188,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -224,11 +224,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -260,11 +260,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -296,11 +296,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -332,11 +332,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -368,11 +368,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -404,11 +404,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -440,11 +440,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -476,11 +476,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -512,11 +512,11 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
-                <div className="cards w-80 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[30rem] space-y-1 overflow-hidden relative group cursor-pointer ">
+                <div className="cards w-90 border border-transparent hover:border-green-500 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 text-center bg-white h-[31rem] space-y-1 overflow-hidden relative group cursor-pointer ">
                     <div className="w-full  overflow-hidden rounded-lg mb-3 flex justify-center ">
                         <img
                             className="w-80 h-80 object-cover"
-                            src="src\assets\img\c3.webp"
+                            src="src\assets\img\c4.webp"
                             alt=""
                         />
                     </div>
@@ -548,6 +548,15 @@ const Shop3Cards = () => {
                         <i className="ri-star-line"></i>
                     </div>
                 </div>
+            </div>
+
+            {/* Page Switch tab */}
+            <div className='flex gap-6 justify-center items-center border-3 py-1 px-8 rounded-4xl border-green-600 my-5 cursor-pointer'>
+                <p className='text-xl font-bold'>1</p>
+                <span className='text-3xl mb-1 font-light'>|</span>
+                <p className='text-xl font-bold'>2</p>
+                <span className='text-3xl mb-1 font-light'>|</span>
+                <p className='text-xl font-bold'>Next</p>
             </div>
         </div>
     )
