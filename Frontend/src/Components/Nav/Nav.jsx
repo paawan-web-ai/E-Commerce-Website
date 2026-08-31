@@ -16,9 +16,7 @@ const Nav = ({ cart }) => {
             <a href="#">HOME</a>
           </p>
 
-
           <div className="relative group hover:text-green-500 transition-all duration-300 ease-in-out">
-
             <div className="flex items-center cursor-pointer">
               <a href="#">SHOP</a>
               <i className="text-2xl ri-arrow-drop-down-line"></i>
@@ -30,23 +28,38 @@ const Nav = ({ cart }) => {
                     <h1>Shop Layouts</h1>
                   </div>
 
-                  <Link to="/shop/3-column" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/shop/3-column"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Shop 3 Column
                   </Link>
 
-                  <Link to="/shop/4-column" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/shop/4-column"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Shop 4 Column
                   </Link>
 
-                  <Link to="/shop/left-sidebar" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/shop/left-sidebar"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Shop Left Sidebar
                   </Link>
 
-                  <Link to="/shop/right-sidebar" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/shop/right-sidebar"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Shop Right Sidebar
                   </Link>
 
-                  <Link to="/shop/no-sidebar" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/shop/no-sidebar"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Shop No Sidebar
                   </Link>
                 </div>
@@ -54,23 +67,38 @@ const Nav = ({ cart }) => {
                   <div className="mb-3 text-md">
                     <h1>Shop Pages</h1>
                   </div>
-                  <Link to="/cart" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/cart"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Cart Page
                   </Link>
 
-                  <Link to="/checkout" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/checkout"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Checkout
                   </Link>
 
-                  <Link to="/account" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/account"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     My Account
                   </Link>
 
-                  <Link to="/wishlist" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/wishlist"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Wishlist
                   </Link>
 
-                  <Link to="/compare" className="block px-2 py-2 text-sm hover:bg-gray-100">
+                  <Link
+                    to="/compare"
+                    className="block px-2 py-2 text-sm hover:bg-gray-100"
+                  >
                     Compare
                   </Link>
                 </div>
@@ -78,46 +106,75 @@ const Nav = ({ cart }) => {
                   <div className="mb-3 text-md">
                     <h1>Product Types</h1>
                   </div>
-                  <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Details</a>
-                  <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Variable</a>
-                  <a href="#" className="block px-2 py-2 text-sm w-32 hover:bg-gray-100">Product Grouped</a>
+                  <a
+                    href="#"
+                    className="block px-2 py-2 text-sm w-32 hover:bg-gray-100"
+                  >
+                    Product Details
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-2 py-2 text-sm w-32 hover:bg-gray-100"
+                  >
+                    Product Variable
+                  </a>
+                  <a
+                    href="#"
+                    className="block px-2 py-2 text-sm w-32 hover:bg-gray-100"
+                  >
+                    Product Grouped
+                  </a>
                 </div>
               </div>
               <div className="w-full h-50">
-                <img className="w-full h-full object-cover object-center" src="src\assets\img\vegetables.jpg" alt="" />
+                <img
+                  className="w-full h-full object-cover object-center"
+                  src="src\assets\img\vegetables.jpg"
+                  alt=""
+                />
               </div>
             </div>
-
           </div>
 
-
           <div className="relative group hover:text-green-500 transition-all duration-300 ease-in-out">
-
             <div className="flex items-center cursor-pointer">
               <a href="#">PAGES</a>
               <i className="text-2xl ri-arrow-drop-down-line"></i>
             </div>
             <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-40 rounded">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Men
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Women
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Kids
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Accessories
+              </a>
             </div>
-
           </div>
           <div className="relative group hover:text-green-500 transition-all duration-300 ease-in-out">
-
             <div className="flex items-center cursor-pointer">
               <a href="#">BLOG</a>
               <i className="text-2xl ri-arrow-drop-down-line"></i>
             </div>
             <div className="absolute hidden group-hover:block bg-white shadow-lg top-full left-0 w-40 rounded">
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Men</a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Women</a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Kids</a>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Accessories</a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Men
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Women
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Kids
+              </a>
+              <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                Accessories
+              </a>
             </div>
-
           </div>
           <p className="hover:text-green-500 transition-all duration-300 ease-in-out">
             <a href="#">ABOUT US</a>
@@ -145,7 +202,8 @@ const Nav = ({ cart }) => {
           </div>
           <div
             onClick={() => setShowCart(!showCart)}
-            className="cart relative hover:text-green-500 transition-all duration-300 ease-in-out">
+            className="cart relative hover:text-green-500 transition-all duration-300 ease-in-out"
+          >
             <i className=" ri-shopping-bag-line text-2xl"></i>
             <div className="navicon2 h-5 w-5 rounded-full bg-green-950 absolute top-4 left-3 text-center text-sm font-bold text-white">
               {cart.length}
@@ -175,7 +233,6 @@ const Nav = ({ cart }) => {
       )}
       {showCart && (
         <div className="absolute right-20 top-30 w-80 bg-white text-black shadow-lg rounded-lg p-4 z-50">
-
           <h2 className="font-bold text-lg mb-3">Cart Items</h2>
 
           {cart.length === 0 ? (
@@ -188,7 +245,6 @@ const Nav = ({ cart }) => {
               </div>
             ))
           )}
-
         </div>
       )}
     </div>
